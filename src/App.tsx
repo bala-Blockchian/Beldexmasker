@@ -1,7 +1,6 @@
 
 import { useState } from "react";
 import { decodeSeedPhrase, encodeSeedPhrase } from "./lib/seed";
-import { WORDLIST_SOURCE } from "./wordlist";
 
 //done
 function CopyButton({ text }: { text: string }) {
@@ -23,7 +22,7 @@ function CopyButton({ text }: { text: string }) {
 
   return (
     // neat functionality if there is no text they cant copy
-    <button className="copy-button" onClick={onCopy} type="button" disabled={!text}> 
+    <button className="copy-button" onClick={onCopy} type="button" disabled={!text}>
       {copied ? "Copied" : "Copy"}
     </button>
   );
