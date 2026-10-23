@@ -79,7 +79,7 @@ export default function App() {
   return (
     <div className="page">
       <header className="header">
-        <h1>Beldex Seed Encoder</h1>
+        <h1>Beldex Encoder</h1>
         <p className="subtitle">Client-side, reversible obfuscation</p>
       </header>
 
